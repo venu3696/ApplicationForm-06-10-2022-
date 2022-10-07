@@ -1,0 +1,36 @@
+
+body{
+    background-color: darkkhaki;
+}
+.pre{
+    border: 1px solid black; color:brown; background-color: skyblue; text-align: center;
+}
+.a{
+    text-align: center;
+}
+.b{
+    border: 1px solid black; background-color:skyblue; font-size: large;
+}
+#India, #checked, #gender{
+    width: auto; height: auto;
+}
+#address{
+    height:100px ; width: 300px;
+}
+input{
+    width: 450px;
+    height:30px;
+}
+select{
+    width: 450px;
+    height:30px;
+}
+#captcha{
+    width: auto;
+    height: 30px;
+}
+#button{
+    width: auto;
+    height: 30px;
+    color: red;
+}

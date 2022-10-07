@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>
+            Welcome to Mahatma Gandhi University
+        </title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        <h1>WELCOME TO MAHATMA GANDHI UNIVERSITY</h1>
+        <h3>Online Application - Examinations</h3>
+        <pre class="pre"> <h3>Service Details  ( Applicable to Affiliated Colleges [Except Autonomous] and Private Study Students
+             Only. Not Applicable to Off Campus Students )</h3></pre>
+             <form action="" method="post" autocomplete="on"></form>
+             <h3 class="a">
+             <label>Choose Your Servive*<br>
+             <select id="mySelect" size="1" >
+                <option disabled selected hidden>--Select--</option>
+                <option>APPLICATION FOR SEMESTER WISE GRADE CARD</option>
+                <option>APPLICATION FOR CONSOLIDATED GRADE CARD</option>
+                <option>APPLICATION FOR PROVISIONAL DEGREE CERTIFICATE</option>
+                <option>APPLICATION FOR ORIGINAL DEGREE CERTIFICATE</option>
+                <option>APPLICATION FOR OFFICIAL TRANSCRIPT OF GRADE MARKS</option>
+                <option>GENUINENESS VERIFICATION OF EACH COPY OF MARK LIST </option>
+             </select></label></h3>
+             <fieldset>
+                <div class="b"><caption>Academic Details</caption></div>  <br>
+                <label> Programme* <br>
+                <select id="mySelect" size="1">
+                    <option disabled selected hidden>--Select--</option>
+                    <option>UG</option>
+                    <option>PG</option>
+                </select> </label>
+                <label>Academic Year* 
+                <select id="mySelect" size="1">
+                    <option>--Select--</option>
+                </select></label> <br> <br>
+                <label for="select"> Study Type* <br> 
+                    <select name="select">
+                        <option value="select"> --Select--</option>
+                    </select>
+                </label>
+                <label>
+                    College* 
+                    <select id="mySelect" name="Colleges" required>
+                        <option disabled selected hidden>--Select--</option>
+                        <option>ADI SHANKARA TRAINING COLLEGE KALADY</option>
+                        <option>ADI SHANKARA INSTITUTE OF ENGINEERING AND TECHNOLOFY</option>
+                        <option>AL-AMEEN COLLEGE, EDATHALA</option>
+                        <option>ALPHONSA COLLEGE, PALA</option>
+                        <option>BHARATA MATA COLLEGE OF ARTS & COMMERCE</option>
+                        <option>CHARITAS COLLEGE OF NURSING, THELLAKAM</option>
+                        <option>DEVAMATHA COLLEGE, KURAVILINGAD</option>
+                        <option>GOVERNMENT COLLEGE OF NALGONDA</option>
+                    </select>
+                </label> <br> <br>
+                <label>
+                    Program Type* <br>
+                    <select id="mySelect"> 
+                        <option disabled selected hidden>--Select--</option>
+                    </select>
+                </label>
+                <label>Register Number* 
+                    <input type="number" name="number" id="number" placeholder="Enter Register Number">
+                </label>
+
+             </fieldset> <br><br>
+             <fieldset>
+                <div class="b">Contact Details</div>
+                <br>
+                <label>Name* <br>
+                    <input type="text" name="name" id="name" placeholder="full name">
+                </label>
+                <label for="date of birth">DOB* 
+                    <input type="date" name="dob" id="dob" placeholder="mm/dd/year"></label> <br> <br>
+                    <label for="email">Email Id* <br>
+                        <input type="email" name="email" id="email" placeholder="email@gmail.com" maxlength="27" minlength="10" required> 
+                       </label>
+                <label for="mobile number"> Mobile Number*
+                    <input type="number" name="number" id="number" placeholder="+91">
+                </label>       <br>
+                 <lable>Gender*</lable> <br>
+                <label for="gender"> 
+                    <input type="radio" name="gender" id="gender"> Male
+                </label> <br>
+                <label for="gender"> 
+                    <input type="radio" name="gender" id="gender"> Female
+                </label> <br><br>
+                <label for="address"> Address* <br>
+                    <textarea name="address" cols="10" rows="10" id="address" value="enter your detailed address" placeholder="Enter your details">
+                    </textarea>
+                </label>
+             </fieldset>
+             <hr>
+             <label> Where do you want to send your Documents?*
+                <input type="radio" id="India" > Inside India
+                <input type="radio" name="" id="India"> Outside India
+             </label> <br><hr><br>
+             <div class="b"><caption>Disclaimer*</caption></div> <br>
+                <label>
+                    <input type="checkbox" id="checked">  I do hereby confirm that I am the bonafide student and applicant.
+
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="" id="checked">I have not applied for the above service previously.
+                </label><br>
+                <label>
+
+                <input type="checkbox" id="checked">  I understand that if any discrepancy is found on verification,my application will be rejected.  
+                </label> <br>
+                <label>
+                    <input type="checkbox" id="checked">All information furnished above are correct to the best of my knowledge and belief.
+                </label><br>
+                <label ><h4>Captcha*</h4>
+                    <input type="captcha" id="captcha" minlength="4" maxlength="4" placeholder="1459">
+                </label> 
+                <label for="captcha"> <h4>Enter Captcha*</h4>
+                    <input type="captcha" id="captcha" placeholder="Enter Captcha...">
+                </label><br>
+                <label for="image">
+                    Choose your Profile:* <br>
+                    <input type="file" id="image" name="image" accept=" image/* .png .jpg">
+                </label><br>
+                <label for="">
+                    <input type="button" value="SUBMIT"  id="button">
+                </label>
+            
+            </body>
+</html>
